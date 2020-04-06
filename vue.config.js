@@ -1,4 +1,4 @@
 module.exports = {
-    publicPath: '/adams880.github.io/',
+    publicPath: '/Turnip-Tracker/',
     outputDir: 'docs'
 };
