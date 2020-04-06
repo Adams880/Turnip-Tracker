@@ -95,7 +95,7 @@ export default {
             this.series.push({
               name: this.idToUser[userId],
               data: this.turnipData[userId]
-            })
+            });
           }
         });
     },
