@@ -69,6 +69,8 @@ export default {
                 console.log(userId)
                 if (userId in dayObj.morning) {
                   this.turnipData[userId].push(parseInt(dayObj.morning[userId].price));
+                } else {
+                  this.turnipData[userId].push(null);
                 }
               }
             }
@@ -79,6 +81,8 @@ export default {
                 console.log(userId)
                 if (userId in dayObj.evening) {
                   this.turnipData[userId].push(parseInt(dayObj.evening[userId].price));
+                } else {
+                  this.turnipData[userId].push(null);
                 }
               }
             }
